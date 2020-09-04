@@ -1,0 +1,15 @@
+﻿<Page x:Class="ParcialBonillaAndres.ValorVentas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParcialBonillaAndres"
+      mc:Ignorable="d" 
+      d:DesignHeight="366" d:DesignWidth="800"
+      Title="ValorVentas" Background="#FFBBFF77">
+
+    <Grid>
+        <Label Content="Valot Total de Ventas" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Margin="0,24,0,0" FontFamily="Brush Script MT"/>
+
+    </Grid>
+</Page>
