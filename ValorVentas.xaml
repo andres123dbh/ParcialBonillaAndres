@@ -10,8 +10,8 @@
 
     <Grid>
         <Label Content="Valot Total de Ventas" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Margin="0,24,0,0" FontFamily="Brush Script MT"/>
-        <Label Content="Bienbenida administradora, aqui podras ver " HorizontalAlignment="Left" Margin="202,157,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="22"/>
-        <Label Content="el valor total de las ventas realizadas " HorizontalAlignment="Left" Margin="202,183,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="22"/>
-        <Button Name="btnLogout" Content="Salir" HorizontalAlignment="Left" Margin="341,238,0,0" VerticalAlignment="Top" Width="74" Click="btnLogout_Click"/>
+        <Label Content="Bienbenida administradora, aqui podras ver " HorizontalAlignment="Left" Margin="224,153,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="22"/>
+        <Label Content="el valor total de las ventas realizadas " HorizontalAlignment="Center" Margin="0,179,0,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="22"/>
+        <Button Name="btnLogout" Content="Salir" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" Width="74" Click="btnLogout_Click"/>
     </Grid>
 </Page>
