@@ -10,6 +10,20 @@
 
     <Grid>
         <Label Content="Venta Panes" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Margin="0,24,0,0" FontFamily="Brush Script MT"/>
-
+        <ComboBox Name = "tipoPan" HorizontalAlignment = "Left" Margin = "145,97,0,0" VerticalAlignment = "Top" Width = "100" Height = "22">
+            <ComboBoxItem IsSelected="True" Content = "Aliñado" />
+            <ComboBoxItem Content = "No Aliñado" />
+            <ComboBoxItem Content = "Espesial" />
+        </ComboBox>
+        <Label Content="Tipo de Pan:" HorizontalAlignment="Left" Margin="68,96,0,0" VerticalAlignment="Top" FontFamily="Candara"/>
+        <Label Content="Cantidad de pasnes:" HorizontalAlignment="Left" Margin="29,143,0,0" VerticalAlignment="Top" FontFamily="Candara"/>
+        <TextBox Name="txtCantidad" HorizontalAlignment="Left" Height="15" Margin="145,148,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="55"/>
+        <Label Content="Nombre del Cliente:" HorizontalAlignment="Left" Margin="33,192,0,0" VerticalAlignment="Top" FontFamily="Candara"/>
+        <Label Content="Cedula del Cliente:" HorizontalAlignment="Left" Margin="40,234,0,0" VerticalAlignment="Top" FontFamily="Candara"/>
+        <TextBox Name="txtNombre" HorizontalAlignment="Left" Height="15" Margin="145,197,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+        <TextBox Name="txtCedula" HorizontalAlignment="Left" Height="15" Margin="145,239,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+        <TextBlock Name="txtVentas" HorizontalAlignment="Left" Margin="470,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="252" Width="171" />
+        <Label Content="Productos Vendidos:" HorizontalAlignment="Left" Margin="470,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.053,0.539"/>
+        <Button Name="btnVender" Content="Vender" HorizontalAlignment="Left" Margin="145,281,0,0" VerticalAlignment="Top" Width="65" Click="btnSave_Click"/>
     </Grid>
 </Page>
